@@ -14,11 +14,7 @@ var changeColorToRed = function () {
 };
 
 var changeOpacityRed = function () {
-  red.classList.add("is-active");
-};
-
-var changeOpacityPink = function () {
-  pink.classList.add("is-active");
+  red.classList.toggle("is-active");
 };
 
 var changeBoxesColorBlueRed = function () {
@@ -35,6 +31,5 @@ var changeBoxesColorAndSelf = function () {
 yellow.addEventListener("click", changeColorToBlue);
 orange.addEventListener("click", changeColorToRed);
 pink.addEventListener("click", changeOpacityRed);
-red.addEventListener("click", changeOpacityPink);
 green.addEventListener("click", changeBoxesColorBlueRed);
 turquoise.addEventListener("click", changeBoxesColorAndSelf);
