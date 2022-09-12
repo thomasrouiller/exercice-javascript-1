@@ -79,3 +79,7 @@ h1 {
 .box.trigger-all-self {
   background: var(--blue-color);
 }
+
+.trigger-all-self.is-active {
+  background-color: green;
+}
